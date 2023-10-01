@@ -57,7 +57,6 @@ for e in all_edges:
         subgraph.add_edge(e[0], e[1])
 return subgraph
 
-
 #suggested_sources = []
 # if all((sensor_values[sensor] == 1) == (r[sensor, v] > alpha[sensor]) for sensor in sensors):
 #    suggested_sources.append(v)
