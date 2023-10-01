@@ -271,3 +271,4 @@ class Algorithm:
 
     def get_contact_queries_count(self):
         return len([c for c in self.contacted.values() if c])
+
