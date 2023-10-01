@@ -85,4 +85,3 @@ print('estimated probability for source: ', mean_probs,
 
 probs = {u: [] for u in graph.nodes}
 correct = {u: [] for u in graph.nodes}
-
